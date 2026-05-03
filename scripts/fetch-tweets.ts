@@ -2,107 +2,134 @@ import { XAuthClient } from "./utils";
 import { get } from "lodash";
 import dayjs from "dayjs";
 import fs from "fs-extra";
+import path from "path";
+import accounts from "../dev-accounts.json" with { type: "json" };
 import type { TweetApiUtilsData } from "twitter-openapi-typescript";
+
+interface Account {
+  username: string;
+  id?: string;
+}
 
 const client = await XAuthClient();
 
-const resp = await client.getTweetApi().getHomeLatestTimeline({
+// Helper: fetch user tweets by userId
+async function fetchUserTweets(userId: string): Promise<any[]> {
+  try {
+    const resp = await client.getTweetApi().getUserTweets({
+      userId: userId,
+    });
+    return resp.data.data.filter((e) => !e.promotedMetadata) || [];
+  } catch (e) {
+    console.error(`Error fetching tweets for user ${userId}:`, e);
+    return [];
+  }
+}
+
+// Helper: resolve username to userId via saved account file or API
+async function resolveUserId(account: Account): Promise<string | null> {
+  if (account.id) return account.id;
+  const accountFile = `./accounts/${account.username}.json`;
+  if (fs.existsSync(accountFile)) {
+    const data = JSON.parse(fs.readFileSync(accountFile, "utf-8"));
+    const uid = get(data, "data.user.restId") || get(data, "restId");
+    if (uid) return uid;
+  }
+  // Try API lookup
+  try {
+    const user = await client.getUserApi().getUserByScreenName({
+      screenName: account.username,
+    });
+    const uid = get(user, "data.user.restId");
+    if (uid) return uid;
+  } catch (e) {
+    console.error(`Could not resolve userId for ${account.username}:`, e);
+  }
+  return null;
+}
+
+// --- Phase 1: Fetch home timeline (as before) ---
+const homeResp = await client.getTweetApi().getHomeLatestTimeline({
   count: 100,
 });
 
-// 过滤出原创推文
-const originalTweets = resp.data.data.filter((tweet) => {
+const allTweets: any[] = [];
+
+// Process home timeline tweets
+const homeTweets = homeResp.data.data.filter((tweet) => {
   return !tweet.referenced_tweets || tweet.referenced_tweets.length === 0;
 });
 
-const rows: TweetApiUtilsData[] = [];
-// 输出所有原创推文的访问地址
-originalTweets.forEach((tweet) => {
+homeTweets.forEach((tweet) => {
   const isQuoteStatus = get(tweet, "raw.result.legacy.isQuoteStatus");
-  if (isQuoteStatus) {
-    return;
-  }
+  if (isQuoteStatus) return;
   const fullText = get(tweet, "raw.result.legacy.fullText", "RT @");
-  if (fullText?.includes("RT @")) {
-    return;
-  }
+  if (fullText?.includes("RT @")) return;
   const createdAt = get(tweet, "raw.result.legacy.createdAt");
-  // return if more than 1 days
-  if (dayjs().diff(dayjs(createdAt), "day") > 1) {
-    return;
-  }
+  if (dayjs().diff(dayjs(createdAt), "day") > 1) return;
+  
   const screenName = get(tweet, "user.legacy.screenName");
-  const tweetUrl = `https://x.com/${screenName}/status/${get(
-    tweet,
-    "raw.result.legacy.idStr"
-  )}`;
-  // 提取用户信息
-  const user = {
-    screenName: get(tweet, "user.legacy.screenName"),
-    name: get(tweet, "user.legacy.name"),
-    profileImageUrl: get(tweet, "user.legacy.profileImageUrlHttps"),
-    description: get(tweet, "user.legacy.description"),
-    followersCount: get(tweet, "user.legacy.followersCount"),
-    friendsCount: get(tweet, "user.legacy.friendsCount"),
-    location: get(tweet, "user.legacy.location"),
-  };
-
-  // 提取图片
-  const mediaItems = get(tweet, "raw.result.legacy.extendedEntities.media", []);
-  const images = mediaItems
-    .filter((media: any) => media.type === "photo")
-    .map((media: any) => media.mediaUrlHttps);
-
-  // 提取视频
-  const videos = mediaItems
-    .filter(
-      (media: any) => media.type === "video" || media.type === "animated_gif"
-    )
-    .map((media: any) => {
-      const variants = get(media, "videoInfo.variants", []);
-      const bestQuality = variants
-        .filter((v: any) => v.contentType === "video/mp4")
-        .sort((a: any, b: any) => (b.bitrate || 0) - (a.bitrate || 0))[0];
-      return bestQuality?.url;
-    })
-    .filter(Boolean);
-
-  rows.push({
-    // @ts-ignore
-    user,
-    images,
-    videos,
-    tweetUrl,
-    fullText,
+  allTweets.push({
+    source: "home_timeline",
+    username: screenName,
+    tweetUrl: `https://x.com/${screenName}/status/${get(tweet, "raw.result.legacy.idStr")}`,
+    fullText: fullText,
+    createdAt: createdAt,
   });
 });
 
-const outputPath = `./tweets/${dayjs().format("YYYY-MM-DD")}.json`;
-let existingRows: TweetApiUtilsData[] = [];
+console.log(`Home timeline: ${allTweets.length} tweets`);
 
-// 如果文件存在，读取现有内容
-if (fs.existsSync(outputPath)) {
-  existingRows = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
+// --- Phase 2: Fetch watchlist user tweets ---
+const watchlist = accounts.filter((a: any) => 
+  ["karpathy", "ylecun", "drfeifeifei", "chelseabfinn", "svlevine",
+   "danijarhafner", "russtedrake", "shuran_song", "pulkitag", "joshua_b_tenenbaum"].includes(a.username)
+);
+
+for (const account of watchlist) {
+  const userId = await resolveUserId(account);
+  if (!userId) {
+    console.log(`Skipping ${account.username}: no userId`);
+    continue;
+  }
+  const tweets = await fetchUserTweets(userId);
+  for (const tweet of tweets) {
+    const fullText = get(tweet, "raw.result.legacy.fullText", "");
+    if (fullText.includes("RT @")) continue;
+    const createdAt = get(tweet, "raw.result.legacy.createdAt");
+    if (dayjs().diff(dayjs(createdAt), "day") > 1) continue;
+    
+    const screenName = get(tweet, "user.legacy.screenName");
+    allTweets.push({
+      source: "watchlist",
+      username: screenName,
+      tweetUrl: `https://x.com/${screenName}/status/${get(tweet, "raw.result.legacy.idStr")}`,
+      fullText: fullText,
+      createdAt: createdAt,
+    });
+  }
+  console.log(`${account.username}: ${tweets.length} tweets`);
 }
 
-// 合并现有数据和新数据
-const allRows = [...existingRows, ...rows];
-
-// 通过 tweetUrl 去重
-const uniqueRows = Array.from(
-  new Map(allRows.map(row => [row.tweetUrl, row])).values()
+// --- Phase 3: Dedup and output ---
+const unique = Array.from(
+  new Map(allTweets.map(t => [t.tweetUrl, t])).values()
 );
 
-// 按照 createdAt 倒序排序
-const sortedRows = uniqueRows.sort((a, b) => {
-  const urlA = new URL(a.tweetUrl);
-  const urlB = new URL(b.tweetUrl);
-  const idA = urlA.pathname.split('/').pop() || '';
-  const idB = urlB.pathname.split('/').pop() || '';
-  return idB.localeCompare(idA); // Twitter ID 本身就包含时间信息，可以直接比较
+unique.sort((a, b) => {
+  const idA = a.tweetUrl.split('/').pop() || '';
+  const idB = b.tweetUrl.split('/').pop() || '';
+  return idB.localeCompare(idA);
 });
 
-fs.writeFileSync(
-  outputPath,
-  JSON.stringify(sortedRows, null, 2)
+const outputPath = `./tweets/${dayjs().format("YYYY-MM-DD")}.json`;
+let existing: any[] = [];
+if (fs.existsSync(outputPath)) {
+  existing = JSON.parse(fs.readFileSync(outputPath, "utf-8"));
+}
+const merged = Array.from(
+  new Map([...existing, ...unique].map(t => [t.tweetUrl, t])).values()
 );
+
+fs.writeFileSync(outputPath, JSON.stringify(merged, null, 2));
+console.log(`\nTotal unique tweets: ${merged.length} → ${outputPath}`);
