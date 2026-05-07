@@ -204,7 +204,19 @@ if (fs.existsSync(outputPath)) {
   existing = JSON.parse(fs.readFileSync(outputPath, "utf-8"));
 }
 
-const merged = Array.from(new Map([...existing, ...unique].map((tweet) => [tweet.tweetUrl, tweet])).values());
+const merged = Array.from(new Map([...existing, ...unique].map((tweet) => [tweet.tweetUrl, tweet])).values()).map(
+  (tweet) => {
+    const account = lookupAccount(tweet.username);
+    if (!account) return tweet;
+    return {
+      ...tweet,
+      category: tweet.category || account.category,
+      priority: tweet.priority || account.priority,
+      tags: tweet.tags || account.tags,
+      routeTo: tweet.routeTo || account.routeTo,
+    };
+  },
+);
 merged.sort((a, b) => {
   const idA = a.tweetUrl.split("/").pop() || "";
   const idB = b.tweetUrl.split("/").pop() || "";
