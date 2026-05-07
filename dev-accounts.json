@@ -7,7 +7,16 @@
       "软件工程师",
       "内容分享"
     ],
-    "id": "2809670209"
+    "id": "2809670209",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "nateleex",
@@ -19,7 +28,16 @@
       "视频博主",
       "AI出海"
     ],
-    "id": "630067994"
+    "id": "630067994",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "feltanimalworld",
@@ -30,7 +48,16 @@
       "STEM教育",
       "CS/EE"
     ],
-    "id": "763901306264322049"
+    "id": "763901306264322049",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "yuxiyou",
@@ -41,7 +68,16 @@
       "Vue作者",
       "技术开发"
     ],
-    "id": "427612058"
+    "id": "427612058",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "xushiwei",
@@ -53,7 +89,16 @@
       "Go语言",
       "技术开发"
     ],
-    "id": "2789781"
+    "id": "2789781",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "nishuang",
@@ -64,7 +109,16 @@
       "UX设计",
       "品牌设计"
     ],
-    "id": "20588970"
+    "id": "20588970",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "dotey",
@@ -75,7 +129,16 @@
       "Prompt编写",
       "AI教育"
     ],
-    "id": "3178231"
+    "id": "3178231",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "skywind3000",
@@ -85,7 +148,16 @@
       "游戏开发",
       "技术开发"
     ],
-    "id": "786479809647869952"
+    "id": "786479809647869952",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "vikingmute",
@@ -95,7 +167,16 @@
       "创业者",
       "产品开发"
     ],
-    "id": "296593919"
+    "id": "296593919",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "waylybaye",
@@ -105,7 +186,16 @@
       "自由职业",
       "独立开发者"
     ],
-    "id": "24124203"
+    "id": "24124203",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "manateelazycat",
@@ -115,7 +205,16 @@
       "Linux开发",
       "系统开发"
     ],
-    "id": "28530405"
+    "id": "28530405",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "middlefeng",
@@ -125,7 +224,16 @@
       "C++开发",
       "图形学"
     ],
-    "id": "28964807"
+    "id": "28964807",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "DLKFZWilliam",
@@ -134,7 +242,16 @@
     "tags": [
       "独立开发"
     ],
-    "id": null
+    "id": null,
+    "category": "builder",
+    "priority": "P2",
+    "enabled": false,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": null,
+    "verifyStatus": "unresolved"
   },
   {
     "username": "javayhu",
@@ -144,7 +261,16 @@
       "诗人",
       "文学创作"
     ],
-    "id": null
+    "id": null,
+    "category": "builder",
+    "priority": "P2",
+    "enabled": false,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": null,
+    "verifyStatus": "unresolved"
   },
   {
     "username": "nextify2024",
@@ -154,7 +280,16 @@
       "独立开发",
       "SaaS"
     ],
-    "id": "1766283136592429056"
+    "id": "1766283136592429056",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "xiongchun007",
@@ -164,7 +299,16 @@
       "数据分析",
       "独立开发"
     ],
-    "id": "1732794145398484992"
+    "id": "1732794145398484992",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "yihong0618",
@@ -174,7 +318,16 @@
       "开发者",
       "文学爱好者"
     ],
-    "id": "1017648622668795904"
+    "id": "1017648622668795904",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "yihui_indie",
@@ -184,7 +337,16 @@
       "创业者",
       "内容创作"
     ],
-    "id": "1718896922277314560"
+    "id": "1718896922277314560",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "goocarlos",
@@ -194,7 +356,16 @@
       "AI开发",
       "技术开发"
     ],
-    "id": "14046502"
+    "id": "14046502",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "ruanyf",
@@ -204,7 +375,16 @@
       "技术博主",
       "教育者"
     ],
-    "id": "1580781"
+    "id": "1580781",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "appinn",
@@ -214,7 +394,16 @@
       "软件分享",
       "内容创作"
     ],
-    "id": "16044147"
+    "id": "16044147",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "turingou",
@@ -224,7 +413,16 @@
       "程序员",
       "前字节跳动"
     ],
-    "id": "42352056"
+    "id": "42352056",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "Linmiv",
@@ -234,7 +432,16 @@
       "社区运营",
       "生产力工具"
     ],
-    "id": "720680424234557440"
+    "id": "720680424234557440",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "cellinlab",
@@ -245,7 +452,16 @@
       "播客主理人",
       "社群运营"
     ],
-    "id": "1131442257675083777"
+    "id": "1131442257675083777",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "wong2_x",
@@ -256,7 +472,16 @@
       "AI工具",
       "产品开发"
     ],
-    "id": "27219828"
+    "id": "27219828",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "fkysly",
@@ -267,7 +492,16 @@
       "Vision Pro",
       "独立开发"
     ],
-    "id": "371296701"
+    "id": "371296701",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "plusyip",
@@ -278,7 +512,16 @@
       "独立开发",
       "动漫爱好者"
     ],
-    "id": "1259102697854132225"
+    "id": "1259102697854132225",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "alanblogsooo",
@@ -289,7 +532,16 @@
       "设计师",
       "建站"
     ],
-    "id": "1694598361461215232"
+    "id": "1694598361461215232",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "ovst36099",
@@ -300,7 +552,16 @@
       "AI工具",
       "独立开发"
     ],
-    "id": "1685871556604653568"
+    "id": "1685871556604653568",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "_KleinHe_",
@@ -312,7 +573,16 @@
       "创业者",
       "技术开发"
     ],
-    "id": "1790217107130695680"
+    "id": "1790217107130695680",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "s1ntone",
@@ -323,7 +593,16 @@
       "独立开发",
       "效率工具"
     ],
-    "id": "1640604020766298113"
+    "id": "1640604020766298113",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "o12er_banana",
@@ -334,7 +613,16 @@
       "创业者",
       "技术开发"
     ],
-    "id": "1689969438484033536"
+    "id": "1689969438484033536",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "lencx_",
@@ -345,7 +633,16 @@
       "Rust开发",
       "内容创作"
     ],
-    "id": "820285264819933184"
+    "id": "820285264819933184",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "daiming_cn",
@@ -356,7 +653,16 @@
       "技术作者",
       "Swift开发"
     ],
-    "id": "1402449532810502150"
+    "id": "1402449532810502150",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "chuckchen_zh",
@@ -367,7 +673,16 @@
       "创业者",
       "技术管理"
     ],
-    "id": "1691015659818467328"
+    "id": "1691015659818467328",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "MaimaiLee123",
@@ -378,7 +693,16 @@
       "设计师",
       "Python开发"
     ],
-    "id": "1527743101242064896"
+    "id": "1527743101242064896",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "yuyy614893671",
@@ -388,7 +712,16 @@
       "金融投资",
       "市场分析"
     ],
-    "id": "1597654998971604992"
+    "id": "1597654998971604992",
+    "category": "builder",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified"
   },
   {
     "username": "karpathy",
@@ -399,7 +732,18 @@
       "deep-learning",
       "research"
     ],
-    "id": ""
+    "id": "33836629",
+    "category": "research",
+    "priority": "P0",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Andrej Karpathy"
   },
   {
     "username": "ylecun",
@@ -410,17 +754,42 @@
       "world-models",
       "JEPA"
     ],
-    "id": ""
+    "id": "48008938",
+    "category": "research",
+    "priority": "P0",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Yann LeCun"
   },
   {
-    "username": "drfeifeifei",
-    "twitter_url": "https://x.com/drfeifeifei",
+    "username": "drfeifei",
+    "twitter_url": "https://x.com/drfeifei",
     "description": "Fei-Fei Li - Stanford professor, Spatial Intelligence",
     "tags": [
       "embodied-ai",
-      "computer-vision"
+      "computer-vision",
+      "spatial-intelligence"
     ],
-    "id": ""
+    "id": null,
+    "category": "research",
+    "priority": "P0",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [
+      "drfeifeifei"
+    ],
+    "lastVerifiedAt": null,
+    "verifyStatus": "unresolved",
+    "displayName": "Fei-Fei Li"
   },
   {
     "username": "chelseabfinn",
@@ -430,7 +799,18 @@
       "robot-learning",
       "IRIS"
     ],
-    "id": ""
+    "id": "2577596593",
+    "category": "research",
+    "priority": "P0",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Chelsea Finn"
   },
   {
     "username": "svlevine",
@@ -440,17 +820,41 @@
       "robot-learning",
       "DRL"
     ],
-    "id": ""
+    "id": "990433714948661250",
+    "category": "research",
+    "priority": "P0",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Sergey Levine"
   },
   {
-    "username": "danijarhafner",
-    "twitter_url": "https://x.com/danijarhafner",
+    "username": "danijarh",
+    "twitter_url": "https://x.com/danijarh",
     "description": "Danijar Hafner - Dreamer, world models",
     "tags": [
       "world-models",
       "Dreamer"
     ],
-    "id": ""
+    "id": null,
+    "category": "research",
+    "priority": "P0",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [
+      "danijarhafner"
+    ],
+    "lastVerifiedAt": null,
+    "verifyStatus": "unresolved",
+    "displayName": "Danijar Hafner"
   },
   {
     "username": "russtedrake",
@@ -460,17 +864,41 @@
       "robotics",
       "manipulation"
     ],
-    "id": ""
+    "id": "1544726597093163011",
+    "category": "research",
+    "priority": "P0",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Russ Tedrake"
   },
   {
-    "username": "shuran_song",
-    "twitter_url": "https://x.com/shuran_song",
+    "username": "SongShuran",
+    "twitter_url": "https://x.com/SongShuran",
     "description": "Shuran Song - Columbia professor, REALab",
     "tags": [
       "embodied-ai",
       "robot-manipulation"
     ],
-    "id": ""
+    "id": null,
+    "category": "research",
+    "priority": "P0",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [
+      "shuran_song"
+    ],
+    "lastVerifiedAt": null,
+    "verifyStatus": "unresolved",
+    "displayName": "Shuran Song"
   },
   {
     "username": "pulkitag",
@@ -480,7 +908,18 @@
       "robot-learning",
       "embodied-ai"
     ],
-    "id": ""
+    "id": "56436262",
+    "category": "research",
+    "priority": "P0",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Pulkit Agrawal"
   },
   {
     "username": "joshua_b_tenenbaum",
@@ -490,6 +929,19 @@
       "cognitive-science",
       "CoCoSci"
     ],
-    "id": ""
+    "id": null,
+    "category": "research",
+    "priority": "P1",
+    "enabled": false,
+    "routeTo": [
+      "research_x"
+    ],
+    "aliases": [
+      "joshua_b_tenenbaum"
+    ],
+    "lastVerifiedAt": null,
+    "verifyStatus": "unresolved",
+    "displayName": "Josh Tenenbaum",
+    "notes": "No stable public X handle confirmed during 2026-05-07 registry cleanup."
   }
 ]
