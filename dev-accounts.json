@@ -943,5 +943,568 @@
     "verifyStatus": "unresolved",
     "displayName": "Josh Tenenbaum",
     "notes": "No stable public X handle confirmed during 2026-05-07 registry cleanup."
+  },
+  {
+    "username": "theo_gervet",
+    "twitter_url": "https://x.com/theo_gervet",
+    "description": "Co-founder at Genesis AI. Past: Mistral AI, Meta AI, Skild AI, PhD @ CMU",
+    "tags": [
+      "embodied-ai",
+      "robotics",
+      "builder"
+    ],
+    "id": "261205583",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Theophile Gervet",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "gs_ai_",
+    "twitter_url": "https://x.com/gs_ai_",
+    "description": "Genesis AI is a global full-stack robotics company building general-purpose robots with human-level intelligence.",
+    "tags": [
+      "embodied-ai",
+      "robotics"
+    ],
+    "id": "1938348575106469888",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Genesis AI",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "KnightNemo_",
+    "twitter_url": "https://x.com/KnightNemo_",
+    "description": "Junior undergrad, Yao class @Tsinghua_Uni | Current intern @uwcse | World Models / WAMs / Humanoid Foundation Models | RS @wuji_global | Prev. RA @mldcmu.",
+    "tags": [
+      "embodied-ai",
+      "world-models",
+      "humanoid"
+    ],
+    "id": "1823740396876570624",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Siqiao Huang",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "frankzydou",
+    "twitter_url": "https://x.com/frankzydou",
+    "description": "PhD student @MIT_CSAIL. MPhil @HKUniversity. Ex-visiting @Penn. Dynamics Modeling, Simulation, Robotics, Geometry, Control, AIGC.🦋https://t.co/YpydZBLKs1",
+    "tags": [
+      "embodied-ai",
+      "robotics",
+      "simulation"
+    ],
+    "id": "1285474814564556800",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Zhiyang (Frank) Dou",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "younghyo_park",
+    "twitter_url": "https://x.com/younghyo_park",
+    "description": "Robotics Ph.D. student at @MIT_CSAIL, advised by @pulkitology",
+    "tags": [
+      "embodied-ai",
+      "robotics"
+    ],
+    "id": "1531277139214946304",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Younghyo Park",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "yacineMTB",
+    "twitter_url": "https://x.com/yacineMTB",
+    "description": "reinforcement learning, robots. prev eng @ x, stripe. 6'3 (height)\n\nworking on a hardware startup with 0 funding because it's funny.\n\nsubscribe to read my blog!",
+    "tags": [
+      "embodied-ai",
+      "rl",
+      "robotics",
+      "builder"
+    ],
+    "id": "1173552893003255808",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "kache",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "1x_tech",
+    "twitter_url": "https://x.com/1x_tech",
+    "description": "NEO The Home Robot | Order Today",
+    "tags": [
+      "embodied-ai",
+      "robotics",
+      "humanoid"
+    ],
+    "id": "755183838532370432",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "1X",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "NVIDIARobotics",
+    "twitter_url": "https://x.com/NVIDIARobotics",
+    "description": "NVIDIA Robotics inspires visionaries and developers to create the next generation of AI-driven robots and explore the world of physical AI.",
+    "tags": [
+      "embodied-ai",
+      "robotics",
+      "ai-lab"
+    ],
+    "id": "92597440",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "NVIDIA Robotics",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "soniajoseph_",
+    "twitter_url": "https://x.com/soniajoseph_",
+    "description": "interpretable video world models @AIatMeta",
+    "tags": [
+      "world-models",
+      "interpretability"
+    ],
+    "id": "3409885648",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Sonia Joseph",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "ayaannmalik",
+    "twitter_url": "https://x.com/ayaannmalik",
+    "description": "world models & embodied AI | @stanford cs | prev. @nvidia @togethercompute @stanfordailab",
+    "tags": [
+      "embodied-ai",
+      "world-models"
+    ],
+    "id": "1720741438240292864",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Ayaan Naveed Malik",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "EkaRobotics",
+    "twitter_url": "https://x.com/EkaRobotics",
+    "description": "The Era of Superhuman Robotics.",
+    "tags": [
+      "embodied-ai",
+      "robotics"
+    ],
+    "id": "2018890007151304704",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Eka Robotics, Inc.",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "sundayrobotics",
+    "twitter_url": "https://x.com/sundayrobotics",
+    "description": "Leave it to Sunday",
+    "tags": [
+      "embodied-ai",
+      "robotics"
+    ],
+    "id": "1983667850201149441",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Sunday",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "priyasun_",
+    "twitter_url": "https://x.com/priyasun_",
+    "description": "CS PhD student @Stanford, prev. Intrinsic, @Amazon Robotics, @UCBerkeley | learning from humans & teaching robots",
+    "tags": [
+      "embodied-ai",
+      "robot-learning"
+    ],
+    "id": "1514126692763127808",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Priya Sundaresan",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "robotsdigest",
+    "twitter_url": "https://x.com/robotsdigest",
+    "description": "Follow @RobotsDigest for latest in Robotics, Humanoids, and Hardware + AI.",
+    "tags": [
+      "embodied-ai",
+      "robotics",
+      "news"
+    ],
+    "id": "1960299893278515200",
+    "category": "research",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Robots Digest 🤖",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "fdellaert",
+    "twitter_url": "https://x.com/fdellaert",
+    "description": "Robotics & Computer Vision Professor at Georgia Tech, and part-time CAIO at Verdant Robotics. Before: stints at KUL, Skydio, Facebook B*8, Google AI.",
+    "tags": [
+      "robotics",
+      "computer-vision"
+    ],
+    "id": "15201247",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Frank Dellaert",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "BitRobotNetwork",
+    "twitter_url": "https://x.com/BitRobotNetwork",
+    "description": "Accelerating Embodied AI breakthroughs, together.",
+    "tags": [
+      "embodied-ai",
+      "robotics",
+      "news"
+    ],
+    "id": "1861258248483151874",
+    "category": "research",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "BitRobot Network",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "pabbeel",
+    "twitter_url": "https://x.com/pabbeel",
+    "description": "Berkeley & Amazon",
+    "tags": [
+      "robot-learning",
+      "rl"
+    ],
+    "id": "180993910",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Pieter Abbeel",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "percyliang",
+    "twitter_url": "https://x.com/percyliang",
+    "description": "professor of computer science @Stanford @stanfordnlp, co-founder of @togethercompute, creator of https://t.co/7R5THVogW2, co-founder of @simile_ai, pianist",
+    "tags": [
+      "ai-research",
+      "evaluation"
+    ],
+    "id": "86481377",
+    "category": "research",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Percy Liang",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "lilianweng",
+    "twitter_url": "https://x.com/lilianweng",
+    "description": "Co-founder of Thinking Machines Lab @thinkymachines; Ex-VP, AI Safety & robotics, applied research @OpenAI; Author of Lil'Log",
+    "tags": [
+      "ai-research",
+      "robotics",
+      "ai-lab"
+    ],
+    "id": "96999384",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Lilian Weng",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "ch402",
+    "twitter_url": "https://x.com/ch402",
+    "description": "Reverse engineering neural networks at @AnthropicAI. Previously @distillpub, OpenAI Clarity Team, Google Brain. Personal account.",
+    "tags": [
+      "interpretability",
+      "ai-safety"
+    ],
+    "id": "153196789",
+    "category": "research",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Chris Olah",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "bcherny",
+    "twitter_url": "https://x.com/bcherny",
+    "description": "Claude Code @anthropicai",
+    "tags": [
+      "agent",
+      "tooling"
+    ],
+    "id": "159337660",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Boris Cherny",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "DarioAmodei",
+    "twitter_url": "https://x.com/DarioAmodei",
+    "description": "Anthropic CEO. https://t.co/qXHIf42jTl",
+    "tags": [
+      "agent",
+      "ai-lab"
+    ],
+    "id": "874126509245476864",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Dario Amodei",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "AnthropicAI",
+    "twitter_url": "https://x.com/AnthropicAI",
+    "description": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant @claudeai on https://t.co/FhDI3KQh0n.",
+    "tags": [
+      "agent",
+      "ai-lab",
+      "ai-safety"
+    ],
+    "id": "1353836358901501952",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Anthropic",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "GoogleAIStudio",
+    "twitter_url": "https://x.com/GoogleAIStudio",
+    "description": "The fastest path from prompt to prototype to production with Gemini",
+    "tags": [
+      "agent",
+      "tooling",
+      "ai-lab"
+    ],
+    "id": "1742923424056713217",
+    "category": "research",
+    "priority": "P1",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "Google AI Studio",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
+  },
+  {
+    "username": "ClementDelangue",
+    "twitter_url": "https://x.com/ClementDelangue",
+    "description": "Co-founder & CEO @HuggingFace 🤗, the open and collaborative platform for AI builders",
+    "tags": [
+      "open-source",
+      "ai-lab",
+      "agent"
+    ],
+    "id": "186420551",
+    "category": "research",
+    "priority": "P2",
+    "enabled": true,
+    "routeTo": [
+      "builders",
+      "research_x"
+    ],
+    "aliases": [],
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
+    "displayName": "clem 🤗",
+    "notes": "First-batch import from local following CSV; selected for research/tooling signal quality."
   }
 ]
