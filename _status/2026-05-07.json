@@ -1,23 +1,23 @@
 {
   "schema": "x-kit-fetch-status-v1",
   "date": "2026-05-07",
-  "generatedAt": "2026-05-07T12:01:20.577Z",
-  "durationMs": 7245,
+  "generatedAt": "2026-05-07T12:35:54.769Z",
+  "durationMs": 25734,
   "accounts": {
-    "registryTotal": 47,
-    "enabledTotal": 44,
-    "researchEnabled": 9,
-    "resolved": 9,
+    "registryTotal": 72,
+    "enabledTotal": 69,
+    "researchEnabled": 34,
+    "resolved": 34,
     "unresolved": 0,
-    "fetched": 9,
+    "fetched": 34,
     "skipped": 3,
     "failed": 0
   },
   "tweets": {
-    "homeAdded": 61,
-    "runUnique": 61,
-    "mergedTotal": 100,
-    "researchTweets": 3
+    "homeAdded": 39,
+    "runUnique": 58,
+    "mergedTotal": 141,
+    "researchTweets": 25
   },
   "failures": []
 }
