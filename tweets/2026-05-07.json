@@ -1,6 +1,27 @@
 [
   {
     "source": "home_timeline",
+    "username": "VilleKuosmanen",
+    "tweetUrl": "https://x.com/VilleKuosmanen/status/2052357419544588379",
+    "fullText": "We just merged a small change to @LeRobotHF's default Diffusion Policy hyperparams, which should make it work better out of the box with real robots.\n\nIf you've been using LeRobot to train mostly ACT policies, give a go to Diffusion Policy!",
+    "createdAt": "Thu May 07 11:58:34 +0000 2026"
+  },
+  {
+    "source": "home_timeline",
+    "username": "APSphysics",
+    "tweetUrl": "https://x.com/APSphysics/status/2052357299797127413",
+    "fullText": "Stop renting your research. Start owning it. 📚 ⚛️\n\nFor the first time, we’re offering Frontlist Perpetual Rights, allowing institutions to purchase ownership of an upcoming year’s content along with their subscription renewal. Learn more: https://t.co/H732mbnEi7 https://t.co/Swy8E1XSKF",
+    "createdAt": "Thu May 07 11:58:05 +0000 2026"
+  },
+  {
+    "source": "home_timeline",
+    "username": "Stanleysobest",
+    "tweetUrl": "https://x.com/Stanleysobest/status/2052357202661511302",
+    "fullText": "现在的大妈都怎么回事，\n\n这是在干嘛呢？？？\n\n修仙么？ https://t.co/zUATYVYLPF",
+    "createdAt": "Thu May 07 11:57:42 +0000 2026"
+  },
+  {
+    "source": "home_timeline",
     "username": "JulianGoldieSEO",
     "tweetUrl": "https://x.com/JulianGoldieSEO/status/2052356095495303214",
     "fullText": "OpenAI just made GPT-5.5 free inside your spreadsheets.\n\nYou can now use ChatGPT Workspace directly inside Google Sheets.\n\nIt is the end of wasting your weekend on data entry.\n\nImagine you have a list of names spelled three different ways.\n\nNormally, that takes an hour to fix by https://t.co/9LAaWyZY3Y",
@@ -603,6 +624,20 @@
   },
   {
     "source": "home_timeline",
+    "username": "constants2026",
+    "tweetUrl": "https://x.com/constants2026/status/2052228103905091620",
+    "fullText": "Claude can now REALLY generate song for you.",
+    "createdAt": "Thu May 07 03:24:43 +0000 2026"
+  },
+  {
+    "source": "home_timeline",
+    "username": "drawersformac",
+    "tweetUrl": "https://x.com/drawersformac/status/2052209508982620318",
+    "fullText": "Drawers shrinks your desktop to just one project. One dock. One context. Swipe when you're ready. Free, local-first, no account.",
+    "createdAt": "Thu May 07 02:10:49 +0000 2026"
+  },
+  {
+    "source": "home_timeline",
     "username": "imbue_ai",
     "tweetUrl": "https://x.com/imbue_ai/status/2052180660375392320",
     "fullText": "Twitter's algorithm is optimized for attention, not for you. Bouncer changes that.",
@@ -628,6 +663,13 @@
     "tweetUrl": "https://x.com/ylecun/status/2052132802758349015",
     "fullText": "Corruption, part N",
     "createdAt": "Wed May 06 21:06:01 +0000 2026"
+  },
+  {
+    "source": "home_timeline",
+    "username": "heyconstella",
+    "tweetUrl": "https://x.com/heyconstella/status/2051989751935496686",
+    "fullText": "The second brain for serious professional researchers who care about using AI to create great works",
+    "createdAt": "Wed May 06 11:37:35 +0000 2026"
   },
   {
     "source": "watchlist",

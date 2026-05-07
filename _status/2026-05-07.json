@@ -1,8 +1,8 @@
 {
   "schema": "x-kit-fetch-status-v1",
   "date": "2026-05-07",
-  "generatedAt": "2026-05-07T11:56:45.691Z",
-  "durationMs": 9279,
+  "generatedAt": "2026-05-07T11:59:19.065Z",
+  "durationMs": 8794,
   "accounts": {
     "registryTotal": 47,
     "enabledTotal": 44,
@@ -16,7 +16,7 @@
   "tweets": {
     "homeAdded": 64,
     "runUnique": 64,
-    "mergedTotal": 92,
+    "mergedTotal": 98,
     "researchTweets": 0
   },
   "failures": []
