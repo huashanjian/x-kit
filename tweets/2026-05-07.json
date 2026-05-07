@@ -655,14 +655,43 @@
     "username": "ylecun",
     "tweetUrl": "https://x.com/ylecun/status/2052132855963074951",
     "fullText": "Corruption, part N+1",
-    "createdAt": "Wed May 06 21:06:14 +0000 2026"
+    "createdAt": "Wed May 06 21:06:14 +0000 2026",
+    "category": "research",
+    "priority": "P0",
+    "tags": [
+      "AI",
+      "world-models",
+      "JEPA"
+    ],
+    "routeTo": [
+      "builders",
+      "research_x"
+    ]
   },
   {
     "source": "watchlist",
     "username": "ylecun",
     "tweetUrl": "https://x.com/ylecun/status/2052132802758349015",
     "fullText": "Corruption, part N",
-    "createdAt": "Wed May 06 21:06:01 +0000 2026"
+    "createdAt": "Wed May 06 21:06:01 +0000 2026",
+    "category": "research",
+    "priority": "P0",
+    "tags": [
+      "AI",
+      "world-models",
+      "JEPA"
+    ],
+    "routeTo": [
+      "builders",
+      "research_x"
+    ]
+  },
+  {
+    "source": "home_timeline",
+    "username": "touchOPHTHALMIC",
+    "tweetUrl": "https://x.com/touchOPHTHALMIC/status/2052001966281179254",
+    "fullText": "Still seeing suboptimal outcomes in DME despite anti-VEGF therapy?\n\nThis CME explores what may be missing, BRB dysfunction and emerging treatment directions. \n\nWatch now + claim CME",
+    "createdAt": "Wed May 06 12:26:07 +0000 2026"
   },
   {
     "source": "home_timeline",
@@ -676,7 +705,25 @@
     "username": "ylecun",
     "tweetUrl": "https://x.com/ylecun/status/2051909244102869082",
     "fullText": "RFKjr == Lyssenko",
-    "createdAt": "Wed May 06 06:17:41 +0000 2026"
+    "createdAt": "Wed May 06 06:17:41 +0000 2026",
+    "category": "research",
+    "priority": "P0",
+    "tags": [
+      "AI",
+      "world-models",
+      "JEPA"
+    ],
+    "routeTo": [
+      "builders",
+      "research_x"
+    ]
+  },
+  {
+    "source": "home_timeline",
+    "username": "Gauth_AI",
+    "tweetUrl": "https://x.com/Gauth_AI/status/2051778420670161406",
+    "fullText": "Stop scrolling through endless text. Start exploring now at Gauth Atlas\n\nWhether it’s the history of the Duomo or the architecture of the Galleria, Gauth Atlas transforms static facts into an immersive, interactive landscape.",
+    "createdAt": "Tue May 05 21:37:50 +0000 2026"
   },
   {
     "source": "home_timeline",
