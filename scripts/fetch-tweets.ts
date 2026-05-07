@@ -37,6 +37,20 @@ interface Failure {
 const runStartedAt = new Date();
 const failures: Failure[] = [];
 const client = await XAuthClient();
+const registryAccounts = accounts as Account[];
+const accountLookup = new Map<string, Account>();
+
+for (const account of registryAccounts) {
+  const keys = [account.username, ...(account.aliases || [])];
+  for (const key of keys) {
+    accountLookup.set(key.toLowerCase(), account);
+  }
+}
+
+function lookupAccount(username?: string): Account | undefined {
+  if (!username) return undefined;
+  return accountLookup.get(username.toLowerCase());
+}
 
 function shouldKeepTweet(tweet: any): boolean {
   const fullText = get(tweet, "raw.result.legacy.fullText", "");
@@ -52,6 +66,7 @@ function normalizeTweet(tweet: any, source: string, account?: Account): Normaliz
   const username = get(tweet, "user.legacy.screenName") || account?.username;
   const tweetId = get(tweet, "raw.result.legacy.idStr");
   if (!username || !tweetId) return null;
+  const matchedAccount = account || lookupAccount(username);
 
   return {
     source,
@@ -59,10 +74,10 @@ function normalizeTweet(tweet: any, source: string, account?: Account): Normaliz
     tweetUrl: `https://x.com/${username}/status/${tweetId}`,
     fullText: get(tweet, "raw.result.legacy.fullText", ""),
     createdAt: get(tweet, "raw.result.legacy.createdAt", ""),
-    category: account?.category,
-    priority: account?.priority,
-    tags: account?.tags,
-    routeTo: account?.routeTo,
+    category: matchedAccount?.category,
+    priority: matchedAccount?.priority,
+    tags: matchedAccount?.tags,
+    routeTo: matchedAccount?.routeTo,
   };
 }
 
@@ -148,7 +163,7 @@ try {
   });
 }
 
-const enabledAccounts = (accounts as Account[]).filter((account) => account.enabled !== false);
+const enabledAccounts = registryAccounts.filter((account) => account.enabled !== false);
 const researchAccounts = enabledAccounts.filter((account) => account.routeTo?.includes("research_x"));
 
 for (const account of researchAccounts) {
@@ -173,7 +188,7 @@ for (const account of researchAccounts) {
   console.log(`${account.username}: ${kept}/${tweets.length} tweets kept`);
 }
 
-skippedAccounts = (accounts as Account[]).filter((account) => account.enabled === false).length;
+skippedAccounts = registryAccounts.filter((account) => account.enabled === false).length;
 
 const unique = Array.from(new Map(allTweets.map((tweet) => [tweet.tweetUrl, tweet])).values());
 unique.sort((a, b) => {
@@ -206,7 +221,7 @@ const status = {
   generatedAt: new Date().toISOString(),
   durationMs: Date.now() - runStartedAt.getTime(),
   accounts: {
-    registryTotal: (accounts as Account[]).length,
+    registryTotal: registryAccounts.length,
     enabledTotal: enabledAccounts.length,
     researchEnabled: researchAccounts.length,
     resolved: resolvedAccounts,
