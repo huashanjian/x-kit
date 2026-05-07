@@ -1,0 +1,77 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "0"
+  },
+  "id": "VXNlcjoxNTQ0NzI2NTk3MDkzMTYzMDEx",
+  "isBlueVerified": false,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": false,
+    "canMediaTag": true,
+    "createdAt": "Wed Jul 06 16:55:15 +0000 2022",
+    "defaultProfile": true,
+    "defaultProfileImage": false,
+    "description": "Professor at MIT, studying robotics. Vice President of Robotics Research, Toyota Research Institute.",
+    "entities": {
+      "description": {}
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 9,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 3171,
+    "following": false,
+    "friendsCount": 96,
+    "hasCustomTimelines": false,
+    "isTranslator": false,
+    "listedCount": 49,
+    "location": "",
+    "mediaCount": 1,
+    "muting": false,
+    "name": "Russ Tedrake",
+    "normalFollowersCount": 3171,
+    "notifications": false,
+    "possiblySensitive": false,
+    "profileBannerUrl": "",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1544726682355077120/-ApHldEt_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "RussTedrake",
+    "statusesCount": 29,
+    "translatorType": "none",
+    "url": "",
+    "verified": false,
+    "wantRetweets": false
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "professional": {
+    "category": [
+      {
+        "iconName": "IconBriefcaseStroke",
+        "id": 713,
+        "name": "Science & Technology"
+      }
+    ],
+    "professionalType": "Creator",
+    "restId": "1746667747658863078"
+  },
+  "profileImageShape": "Circle",
+  "restId": "1544726597093163011",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false
+  }
+}

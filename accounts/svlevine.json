@@ -1,0 +1,95 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "0"
+  },
+  "id": "VXNlcjo5OTA0MzM3MTQ5NDg2NjEyNTA=",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": false,
+    "canMediaTag": false,
+    "createdAt": "Sun Apr 29 03:32:53 +0000 2018",
+    "defaultProfile": true,
+    "defaultProfileImage": false,
+    "description": "Associate Professor at UC Berkeley\nCo-founder, Physical Intelligence",
+    "entities": {
+      "description": {},
+      "url": {
+        "urls": [
+          {
+            "display_url": "rail.eecs.berkeley.edu",
+            "expanded_url": "http://rail.eecs.berkeley.edu/",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/GwvITBpzGc"
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 1216,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 125910,
+    "following": true,
+    "friendsCount": 142,
+    "hasCustomTimelines": false,
+    "isTranslator": false,
+    "listedCount": 1571,
+    "location": "Berkeley, CA",
+    "mediaCount": 1073,
+    "muting": false,
+    "name": "Sergey Levine",
+    "normalFollowersCount": 125910,
+    "notifications": false,
+    "possiblySensitive": false,
+    "profileBannerUrl": "",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/990434811662680064/BKCbJypl_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "svlevine",
+    "statusesCount": 2584,
+    "translatorType": "none",
+    "url": "https://t.co/GwvITBpzGc",
+    "verified": false,
+    "wantRetweets": true
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "profileImageShape": "Circle",
+  "restId": "990433714948661250",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 26,
+            "ref": {
+              "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 36
+          }
+        ],
+        "text": "This account is verified. Learn more"
+      },
+      "verifiedSinceMsec": "1712184916749"
+    }
+  }
+}

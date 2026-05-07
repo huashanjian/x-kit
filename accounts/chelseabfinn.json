@@ -1,0 +1,98 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "2"
+  },
+  "id": "VXNlcjoyNTc3NTk2NTkz",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": true,
+    "canMediaTag": true,
+    "createdAt": "Thu Jun 19 22:24:09 +0000 2014",
+    "defaultProfile": false,
+    "defaultProfileImage": false,
+    "description": "Asst Prof of CS & EE @Stanford\nCo-founder of Physical Intelligence @physical_int\nPhD from @Berkeley_EECS, EECS BS from @MIT",
+    "entities": {
+      "description": {},
+      "url": {
+        "urls": [
+          {
+            "display_url": "ai.stanford.edu/~cbfinn",
+            "expanded_url": "http://ai.stanford.edu/~cbfinn",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/DejRLengAm"
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 1383,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 92147,
+    "following": true,
+    "friendsCount": 399,
+    "hasCustomTimelines": false,
+    "isTranslator": false,
+    "listedCount": 1649,
+    "location": "Palo Alto, CA",
+    "mediaCount": 288,
+    "muting": false,
+    "name": "Chelsea Finn",
+    "normalFollowersCount": 92147,
+    "notifications": false,
+    "pinnedTweetIdsStr": [
+      "2044855690414694567"
+    ],
+    "possiblySensitive": false,
+    "profileBannerUrl": "",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1531702062487965698/a6iO2pRx_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "chelseabfinn",
+    "statusesCount": 674,
+    "translatorType": "none",
+    "url": "https://t.co/DejRLengAm",
+    "verified": false,
+    "wantRetweets": true
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "profileImageShape": "Circle",
+  "restId": "2577596593",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 26,
+            "ref": {
+              "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 36
+          }
+        ],
+        "text": "This account is verified. Learn more"
+      },
+      "verifiedSinceMsec": "1712184542140"
+    }
+  }
+}
