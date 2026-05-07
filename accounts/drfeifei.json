@@ -1,0 +1,98 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "2"
+  },
+  "id": "VXNlcjoxMzA3NDU1ODk=",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": false,
+    "canMediaTag": false,
+    "createdAt": "Thu Apr 08 05:16:30 +0000 2010",
+    "defaultProfile": false,
+    "defaultProfileImage": false,
+    "description": "Prof (CS @Stanford), Co-Director @StanfordHAI, Cofounder/CEO @theworldlabs, #AI #SpatialIntelligence #GenAI #computervision #robotics #AI-healthcare",
+    "entities": {
+      "description": {},
+      "url": {
+        "urls": [
+          {
+            "display_url": "svl.stanford.edu",
+            "expanded_url": "http://svl.stanford.edu",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/x7co90bT1c"
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 7368,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 648160,
+    "following": true,
+    "friendsCount": 1167,
+    "hasCustomTimelines": true,
+    "isTranslator": false,
+    "listedCount": 9522,
+    "location": "Stanford, CA, U.S.A.",
+    "mediaCount": 278,
+    "muting": false,
+    "name": "Fei-Fei Li",
+    "normalFollowersCount": 648160,
+    "notifications": false,
+    "pinnedTweetIdsStr": [
+      "1987891210699379091"
+    ],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/130745589/1691282908",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/841385099799085056/R1iX4QGX_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "drfeifei",
+    "statusesCount": 2972,
+    "translatorType": "none",
+    "url": "https://t.co/x7co90bT1c",
+    "verified": false,
+    "wantRetweets": true
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "profileImageShape": "Circle",
+  "restId": "130745589",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 26,
+            "ref": {
+              "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 36
+          }
+        ],
+        "text": "This account is verified. Learn more"
+      },
+      "verifiedSinceMsec": "1551657660560"
+    }
+  }
+}

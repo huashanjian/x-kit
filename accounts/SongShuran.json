@@ -1,0 +1,98 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "6"
+  },
+  "id": "VXNlcjo3NTE0MTQ4MzYyNDA2MDkyODA=",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": false,
+    "canMediaTag": true,
+    "createdAt": "Fri Jul 08 13:57:12 +0000 2016",
+    "defaultProfile": true,
+    "defaultProfileImage": false,
+    "description": "Assistant Professor @Stanford University working on #Robotics #AI #ComputerVision",
+    "entities": {
+      "description": {},
+      "url": {
+        "urls": [
+          {
+            "display_url": "shurans.github.io",
+            "expanded_url": "http://shurans.github.io",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/qtj58hMhJB"
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 911,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 13650,
+    "following": true,
+    "friendsCount": 536,
+    "hasCustomTimelines": false,
+    "isTranslator": false,
+    "listedCount": 129,
+    "location": "California",
+    "mediaCount": 34,
+    "muting": false,
+    "name": "Shuran Song",
+    "normalFollowersCount": 13650,
+    "notifications": false,
+    "pinnedTweetIdsStr": [
+      "2036838455700045975"
+    ],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/751414836240609280/1529041220",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1477840555585454085/EpXIQGg5_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "SongShuran",
+    "statusesCount": 393,
+    "translatorType": "none",
+    "url": "https://t.co/qtj58hMhJB",
+    "verified": false,
+    "wantRetweets": true
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "profileImageShape": "Circle",
+  "restId": "751414836240609280",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 26,
+            "ref": {
+              "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 36
+          }
+        ],
+        "text": "This account is verified. Learn more"
+      },
+      "verifiedSinceMsec": "1729829914738"
+    }
+  }
+}

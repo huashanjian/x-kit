@@ -1,0 +1,103 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "3"
+  },
+  "id": "VXNlcjoxNjU4ODI5MjQ2",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": true,
+    "canMediaTag": true,
+    "createdAt": "Sat Aug 10 00:02:14 +0000 2013",
+    "defaultProfile": false,
+    "defaultProfileImage": false,
+    "description": "Building AI that autonomously understands and interacts with the world.\nPrevious: @GoogleDeepMind @UCBerkeley @UofT",
+    "entities": {
+      "description": {},
+      "url": {
+        "urls": [
+          {
+            "display_url": "danijar.com",
+            "expanded_url": "http://danijar.com",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/5DoQCXXZBe"
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 11193,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 28924,
+    "following": false,
+    "friendsCount": 1200,
+    "hasCustomTimelines": true,
+    "isTranslator": false,
+    "listedCount": 309,
+    "location": "SF",
+    "mediaCount": 187,
+    "muting": false,
+    "name": "Danijar Hafner",
+    "normalFollowersCount": 28924,
+    "notifications": false,
+    "pinnedTweetIdsStr": [
+      "1973072288351396320"
+    ],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/1658829246/1626709661",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/2027668006046969856/I1sED4yv_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "danijarh",
+    "statusesCount": 2712,
+    "translatorType": "none",
+    "url": "https://t.co/5DoQCXXZBe",
+    "verified": false,
+    "wantRetweets": false
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "professional": {
+    "category": [],
+    "professionalType": "Creator",
+    "restId": "1552672636563595264"
+  },
+  "profileImageShape": "Circle",
+  "restId": "1658829246",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 26,
+            "ref": {
+              "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 36
+          }
+        ],
+        "text": "This account is verified. Learn more"
+      },
+      "verifiedSinceMsec": "1743616072064"
+    }
+  }
+}

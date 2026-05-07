@@ -776,7 +776,7 @@
       "computer-vision",
       "spatial-intelligence"
     ],
-    "id": null,
+    "id": "130745589",
     "category": "research",
     "priority": "P0",
     "enabled": true,
@@ -787,8 +787,8 @@
     "aliases": [
       "drfeifeifei"
     ],
-    "lastVerifiedAt": null,
-    "verifyStatus": "unresolved",
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
     "displayName": "Fei-Fei Li"
   },
   {
@@ -841,7 +841,7 @@
       "world-models",
       "Dreamer"
     ],
-    "id": null,
+    "id": "1658829246",
     "category": "research",
     "priority": "P0",
     "enabled": true,
@@ -852,8 +852,8 @@
     "aliases": [
       "danijarhafner"
     ],
-    "lastVerifiedAt": null,
-    "verifyStatus": "unresolved",
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
     "displayName": "Danijar Hafner"
   },
   {
@@ -885,7 +885,7 @@
       "embodied-ai",
       "robot-manipulation"
     ],
-    "id": null,
+    "id": "751414836240609280",
     "category": "research",
     "priority": "P0",
     "enabled": true,
@@ -896,8 +896,8 @@
     "aliases": [
       "shuran_song"
     ],
-    "lastVerifiedAt": null,
-    "verifyStatus": "unresolved",
+    "lastVerifiedAt": "2026-05-07",
+    "verifyStatus": "verified",
     "displayName": "Shuran Song"
   },
   {
